@@ -6,6 +6,9 @@
 - Validar metadatos YAML contra el cuerpo de la nota diaria (checkboxes de rutina).
 - Directorio por defecto para conocimiento técnico: `03_RECURSOS/`.
 - **Nunca** asumir `04_ARCHIVO` como destino.
+- **Punto de entrada central:** `00_HOME.md` — panel de mando con vistas Dataview.
+- **Taxonomía obligatoria:** Solo etiquetas de `02_CONVENCIONES_TAGS.md` — prohibido inventar.
+- **Plugins asumidos:** Dataview y Templater siempre disponibles.
 
 ## Estado de Proyectos
 - *(Ninguno activo aún)*
@@ -28,4 +31,6 @@
   - `10_SISTEMA/Plantillas/` — 3 plantillas (Nota_Recurso, Proyecto, MOC).
   - `10_SISTEMA/Scripts/` — 2 scripts DataviewJS (tareas pendientes, enlaces huérfanos).
   - `00_DASHBOARD.md` — Panel de control con vistas embebidas.
+  - `00_HOME.md` — Punto de entrada central.
+  - `10_SISTEMA/.agent/02_CONVENCIONES_TAGS.md` — Taxonomía estándar de etiquetas.
 - **Estado:** Estructura base finalizada. Sesión concluida por el usuario.
